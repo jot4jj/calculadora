@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <script src="calculadora.js"></script>
     <link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
     <div class="container">
         <div class="caixa">
-            <div class="display" id="display">
-                0
-            </div>
+            <div class="display" id="display"></div>
             <div class="tabela">
                 <table>
                     <tr>
-                        <td><button onclick="cleardisplay()" id="funcao">AC</button></td>
-                        <td><button onclick="backspace()" id="funcao">DEL</button></td>
+                        <td><button onclick="clearDisplay()" id="funcao">AC</button></td>
+                        <td><button onclick="backSpace()" id="funcao">DEL</button></td>
                         <td><button onclick="insert('/')" id="funcao">÷</button></td>
                         <td><button onclick="insert('*')" id="op">x</button></td>
                     </tr>

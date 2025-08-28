@@ -11,11 +11,11 @@ function calcular(){
     }
 }
 
-function cleardisplay(){
+function clearDisplay(){
     document.querySelector(".display").innerText = ''
 }
 
-function backspace(){
+function backSpace(){
     let display = document.querySelector(".display").innerText
     document.querySelector(".display").innerText = display.slice(0,-1)
 }
